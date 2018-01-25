@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lawyee.h5hbuilder">
 
-        <!--android:theme="@style/AppTheme"-->
-        <!--android:allowBackup="true"-->
+
     <supports-screens
         android:anyDensity="true"
         android:largeScreens="true"
@@ -16,7 +15,8 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.GET_TASKS"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    
+    <!--android:theme="@style/AppTheme"-->
+    <!--android:allowBackup="true"-->
     <application
         android:icon="@drawable/icon"
         android:label="@string/app_name"
@@ -24,10 +24,9 @@
         android:supportsRtl="true"
         android:largeHeap="true"
         android:allowClearUserData="true"
-        android:name="io.dcloud.application.DCloudApplication"
-        >
-        
-        <!--<activity android:name=".MainActivity">-->
+        android:name="io.dcloud.application.DCloudApplication">
+
+        <!--<activity android:name="SDK_WebApp">-->
             <!--<intent-filter>-->
                 <!--<action android:name="android.intent.action.MAIN" />-->
 
@@ -64,6 +63,7 @@
         <service
             android:name="io.dcloud.common.adapter.io.MiniServerService"
             android:exported="true" />
+
     </application>
 
 </manifest>
