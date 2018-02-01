@@ -31,4 +31,7 @@ dependencies {
     implementation files('libs/mysonic.jar')
     implementation files('libs/pdr.jar')
     implementation files('libs/ui.jar')
+    implementation files('libs/mid-sdk-2.10.jar')
+    implementation files('libs/mta-sdk-2.0.2.jar')
+    implementation files('libs/wxvoice.jar')
 }
