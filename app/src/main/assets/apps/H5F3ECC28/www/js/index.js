@@ -73,6 +73,7 @@ $("#span_text").bind({
 		if(isSound) {
 			isSound = false;
 		}
+		$(".play_video_right").attr("src","img/video_img.png");
 		handlerShowVideoView(false);
 		pingbi(event);
 		startSec();
